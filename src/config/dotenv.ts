@@ -8,7 +8,7 @@ interface IEnv {
 enum EEnv {
   HOSTNAME = 'HOSTNAME',
   PORT = 'PORT',
-  ENV = 'ENV',
+  ENV = 'SERVER_ENVIRONMENT',
 }
 
 function loadEnvironmentVariable(keyname: string) {
